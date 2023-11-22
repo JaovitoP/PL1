@@ -32,7 +32,7 @@ var CadastrarProdutos = /** @class */ (function (_super) {
         var valorProduto = this.entrada.receberNumero("Por favor, informe o valor do produto: R$ ");
         var produto = new produto_1.default(nomeProduto, valorProduto);
         var confirmacao = this.entrada.receberTexto("Deseja cadastrar o produto ".concat(nomeProduto, ", por R$ ").concat(valorProduto, "? (S/N): "));
-        if (confirmacao === "S") {
+        if (confirmacao === "S" || 's') {
             this.produtos.push(produto);
             console.log("\nProduto cadastrado! :)");
         }

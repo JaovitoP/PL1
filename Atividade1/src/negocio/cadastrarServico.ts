@@ -22,7 +22,7 @@ export default class CadastrarServicos extends Cadastro {
             `Deseja cadastrar o serviço ${nomeServico}, por R$ ${valorServico}? (S/N): `
           );
 
-        if (confirmacao === "S") {
+        if (confirmacao === "S" || 's') {
             this.servicos.push(servico)
             console.log(`\nServiço cadastrado! :)`);
         } else if (confirmacao === "N") {

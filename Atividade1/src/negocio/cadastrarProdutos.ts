@@ -22,7 +22,7 @@ export default class CadastrarProdutos extends Cadastro {
             `Deseja cadastrar o produto ${nomeProduto}, por R$ ${valorProduto}? (S/N): `
           );
 
-        if (confirmacao === "S") {
+        if (confirmacao === "S" || 's') {
             this.produtos.push(produto)
         console.log(`\nProduto cadastrado! :)`);
         } else if (confirmacao === "N") {

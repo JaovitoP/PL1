@@ -32,7 +32,7 @@ var CadastrarServicos = /** @class */ (function (_super) {
         var valorServico = this.entrada.receberNumero("Por favor, informe o valor do servi\u00E7o: R$ ");
         var servico = new servico_1.default(nomeServico, valorServico);
         var confirmacao = this.entrada.receberTexto("Deseja cadastrar o servi\u00E7o ".concat(nomeServico, ", por R$ ").concat(valorServico, "? (S/N): "));
-        if (confirmacao === "S") {
+        if (confirmacao === "S" || 's') {
             this.servicos.push(servico);
             console.log("\nServi\u00E7o cadastrado! :)");
         }

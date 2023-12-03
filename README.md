@@ -6,6 +6,47 @@
 ## 📚 Introdução
 Uma empresa chamada Computer4Pet (C4P) tem o objetivo de desenvolver sistemas para atender, lojas de comercio eletrônico, pet shops e clínicas veterinárias em geral.
 
-### 📃 Atividade 1
-O primeiro projeto que recebeu investimento foi um sistema do tipo CLI (Command-Line Interface). O sistema foi batizado como PetLovers (PL). O PL foi pensando para gerenciar pet shops e/ou clínicas veterinárias
-Guia de Execução
+## Atividade 1
+O primeiro projeto que recebeu investimento foi um sistema do tipo CLI (Command-Line Interface). O sistema foi batizado como PetLovers (PL) e foi pensando para gerenciar pet shops e/ou clínicas veterinárias.
+### Guia de execução
+Abra o terminal e clone o repositório no local que sua preferência
+~~~
+git clone https://github.com/JaovitoP/PetLovers.git
+~~~
+Entre na pasta 'Atividade1'
+~~~
+cd Atividade1
+~~~
+Entre na pasta 'src'
+~~~
+cd src
+~~~
+Entre na pasta 'app'
+~~~
+cd app
+~~~
+Compile o arquivo 'main.ts'
+~~~
+tsc main.ts
+~~~
+
+## Atividade 2
+O sistema desenvolvido para a C4P foi um sucesso. Várias franquias de lojas especializadas em produtos parao mercado pet adotaram a solução desenvolvida por você, na tua empresa especializada em desenvolvimentode software. Mas, apesar de todo o sucesso, há uma questão ainda não resolvida. O sistema não tem uma GUI.
+
+### Guia de execução
+Abra o terminal e clone o repositório no local que sua preferência
+~~~
+git clone https://github.com/JaovitoP/PetLovers.git
+~~~
+Entre na pasta 'atividade2'
+~~~
+cd atividade2
+~~~
+Instale as dependências do app
+~~~
+npm install
+~~~
+Execute o app
+~~~
+npm start
+~~~

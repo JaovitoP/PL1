@@ -96,11 +96,10 @@ export default class FormularioAtualizarPet extends Component<props> {
                         <option selected>Escolha uma opção...</option>
                         <option>Cachorro</option>
                         <option>Gato</option>
-                        <option>Ave</option>
-                        <option>Roedor</option>
                         <option>Peixe</option>
-                        <option>Réptil</option>
-                        <option>Outros</option>
+                        <option>Hamster</option>
+                        <option>Pássaro</option>
+                        <option>Outro</option>
                       </select>
                     </div>
                     <div className="input-group mb-3">

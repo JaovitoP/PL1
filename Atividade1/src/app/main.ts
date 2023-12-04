@@ -1,34 +1,25 @@
 import Entrada from "../io/entrada"
 import Empresa from "../modelo/empresa"
 
-// CLIENTES
 import AtualizarCliente from "../negocio/atualizarCliente"
 import CadastroCliente from "../negocio/cadastroCliente"
 import ListagemClientes from "../negocio/listagemClientes"
 import RemoverCliente from "../negocio/removerCliente"
 
-// PETS
 import CadastroPet from "../negocio/cadastroPet"
 import AtualizarPet from "../negocio/atualizarPet"
 import RemoverPet from "../negocio/removerPet"
 
-// PRODUTOS
 import CadastrarProdutos from "../negocio/cadastrarProdutos"
 import AtualizarProduto from "../negocio/atualizarProduto"
 import ListagemProdutos from "../negocio/listagemProdutos"
 import RemoverProduto from "../negocio/removerProduto"
 
-// SERVICOS
 import CadastrarServicos from "../negocio/cadastrarServico"
 import AtualizarServicos from "../negocio/atualizarServicos"
 import ListagemServicos from "../negocio/listagemServicos"
 import RemoverServicos from "../negocio/removerServicos"
 
-/* // GERENCIADORES CONSUMO
-import GerenciadorConsumo from '../negocio/gerenciadorConsumo';
-import GerenciadorConsumoValor from '../negocio/gerenciadorConsumoValor';
-import GerenciadorConsumoPorPet from '../negocio/gerenciadorConsumoPorPet';
- */
 console.log(`Bem-vindo ao melhor sistema de gerenciamento de pet shops e clínicas veterinarias`)
 let empresa = new Empresa()
 let execucao = true
@@ -125,53 +116,6 @@ while (execucao) {
       let removerServico = new RemoverServicos(empresa.getServicos)
       removerServico.remover()
       break
-/*     case 16:
-      const gerenciadorConsumo = new GerenciadorConsumo(
-        gerenciadorClientes,
-        gerenciadorProdutos,
-        gerenciadorServicos
-      )
-      gerenciadorConsumo.registrarConsumo()
-      break
-
-    // switch case para listar os 10 clientes que mais consumiram produtos ou serviços
-    case 17:
-      const clientesMaisConsumiram = gerenciadorClientes.obterClientesQueMaisConsumiram()
-      console.log("Clientes que mais consumiram produtos:")
-      console.log(clientesMaisConsumiram.produtos)
-      console.log("Clientes que mais consumiram serviços:")
-      console.log(clientesMaisConsumiram.servicos)
-      break
-
-    // switch case para listar os serviços ou produtos mais consumidos
-    case 18:
-      const produtosMaisConsumidos = gerenciadorProdutos.obterProdutosMaisConsumidos()
-      const servicosMaisConsumidos = gerenciadorServicos.obterServicosMaisConsumidos()
-      console.log("Produtos mais consumidos:")
-      console.log(produtosMaisConsumidos)
-      console.log("Serviços mais consumidos:")
-      console.log(servicosMaisConsumidos)
-      break
-
-    // switch case para listar os serviços ou produtos mais consumidos por tipo e raça de pets
-    case 19:
-      const gerenciadorConsumoPorPet = new GerenciadorConsumoPorPet(
-        gerenciadorClientes,
-        gerenciadorProdutos,
-        gerenciadorServicos
-      )
-      gerenciadorConsumoPorPet.listarConsumoPorPet()
-      break
-
-    // switch case para listar os 5 clientes que mais consumiram em valor
-    case 20:
-      const gerenciadorConsumoValor = new GerenciadorConsumoValor(
-        gerenciadorClientes,
-        gerenciadorProdutos,
-        gerenciadorServicos
-      )
-      gerenciadorConsumoValor.listarClientesQueMaisConsumiramValor()
-      break */
     case 0:
       execucao = false
       console.log(`Até mais`)

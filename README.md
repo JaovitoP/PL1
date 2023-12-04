@@ -14,7 +14,7 @@
 ### Guia de execução
 Abra o terminal e clone o repositório no local que sua preferência
 ~~~
-git clone https://github.com/JaovitoP/PetLovers.git
+git clone https://github.com/JaovitoP/PL1.git
 ~~~
 Entre na pasta 'Atividade1'
 ~~~

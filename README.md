@@ -28,8 +28,12 @@ Entre na pasta 'app'
 ~~~
 cd app
 ~~~
-Compile o arquivo 'main.ts'
+Compile o arquivo 'main.ts' (Com o prompt de comando) 
 ~~~
 tsc main.ts
+~~~
+Execute o arquivo 'main.ts' (com o terminal)
+~~~
+node main.js
 ~~~
 
